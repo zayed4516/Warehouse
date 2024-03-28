@@ -1,0 +1,690 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+    width: 97.7vw;
+    justify-content: space-around;;
+    margin-left: 10px;
+    margin-right: 10px;
+    background:linear-gradient(black,orange);
+    position: fixed;
+}
+.top_header_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+.top_header_icons i{
+    padding: 0 20px;
+    font-size: 30px;
+    color: white;
+}
+.nav_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+}
+.nav_links a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 50px;
+    transition: 1s;
+    background-color: black;
+    padding: 5px;
+    border-radius: 3px;
+    width: 115px;
+    text-align: center;
+}
+.nav_links a:hover{
+   background-color: white;
+   color: black;
+   transform: translateX(5px);
+   
+}
+.header .page_icon{
+    width: 20vw;
+    display: flex;
+    justify-content: end;
+    margin-left: 20px;
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.header .menu_bar{
+    font-size: 30px;
+    color: white;
+    margin-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.main_section{
+    background-image: url("imges/industrial-interior-warehouse-with-goods-shelves_103577-7756.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin:0px 10px 5px 10px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
+    animation-name: main_section;
+    animation-duration: 1s;
+    
+}
+@keyframes main_section{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.main_section .main_section_btn{
+    
+    padding-top: 100px;
+}
+.main_section .main_section_btn .btn{
+ background-color: orange;
+ padding: 15px;
+ border-radius: 30px;
+ border: none;
+ font-size: 40px;
+ color: black;
+}
+.main_section p{
+    padding-top: 300px;
+}
+.main_section p span{
+    font-size: 80px;
+    font-weight: 1000;
+    color:rgb(206, 136, 5);
+    background-color: black;
+    opacity: .6;
+    padding: 10px;
+    border-radius: 20px;
+}
+#about{
+margin:0 10px ;
+background-image: url(" imges/gettyimages-1209615762-640x640.jpg");
+background-position: auto;
+background-repeat: no-repeat;
+background-size:cover ;
+background-attachment: fixed;
+transition: 2s;
+}
+
+#about p{
+    font-size: 50px;
+    font-weight: 1000px;
+    padding: 20px 20px;
+    text-align: center;
+}
+#about .about_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+#about .about_img img{
+width: 40%;
+border-radius: 200px;
+box-shadow: 30px 20px 20px black;
+}
+#about .about_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+#about .about_container img{
+    
+    height: 200px;
+    margin: 10px;
+   
+   
+}
+
+#about .about_container img:hover{
+  
+    transform: rotate(10deg);
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px black;
+    overflow: hidden;
+    
+}
+.refer{
+    height: 20vh;
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 100px;
+    transition: 5s;
+}
+.refer p{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 50px;
+    font-weight: 200;
+}
+.refer p span{
+    color: orange;
+    font-size: 70px;
+    font-weight: 1000px;
+}
+.refer i{
+    font-size: 100px;
+    margin-top: 10px;
+    color: orange;
+
+}
+#service{
+    background-image: url("imges/textile-clothing-garments-shelving.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+    transition: 2s;
+}
+#service  i{
+    margin: 20px;
+    font-size: 60px;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 30px;
+    opacity: .7;
+}
+
+.kinds{
+    
+   text-align: center;
+   margin-bottom: 200px;
+   transition: 5s;
+}
+.kinds .parg_1{
+
+color: orange;
+font-size: 70px;
+font-weight: 1000px;
+}
+.kinds .parg_2{
+    
+    color: black;
+    font-size: 70px;
+    font-weight: 1000px;
+} .kinds i{
+    font-size: 100px;
+    margin-top: 10px;
+    color: orange;
+}
+#shoping{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px 10px ;
+    flex-wrap: wrap;
+    overflow: hidden;
+   transition: 2s;
+  
+}
+
+
+#shopping .shoping_img{
+    width: 60%;
+    height: 100vh;
+}
+#shoping .shoping_img img{
+   width: 300px;
+   height: 300px;
+   margin: 15px;
+}
+.app_header{
+    height:50vh;
+    background-color: black;
+    border-radius: 1000px / 100px 100px 0px 0px ;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.app_header span{
+    color: white;
+    font-size: 100px;
+}
+.app_show{
+    background-image: url("imges/img10 .jpg");
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+.app_show  i{
+    margin: 20px;
+    font-size: 60px;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 30px;
+    opacity: .7;
+}
+.app_img{
+    
+    justify-content: center;
+    align-items: center;
+    margin:20px 10px ;
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: flex;
+    transition: 10s;
+    align-self: start;
+}
+@keyframes practise{
+    from{
+        width: 0vw;
+    }
+    to{
+        width: 100vw;
+    }
+}
+.app_img a{
+    text-decoration: none;
+}
+.app_img a img{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    border: 8px solid orange;
+    transition: 5s;
+}
+.app_img a .login_para1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    background-color: orange;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.app_img a .login_para2{
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    background-color: orange;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* trousers_section */
+.app1_show{
+    background-image: url("imges/img19.jpg");
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+.app1_show  i{
+    margin: 20px;
+    font-size: 60px;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 30px;
+    opacity: .7;
+}
+
+
+/* Jeans shorts_section */
+.app2_show{
+    background-image: url("imges/img33.jpg");
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+.app2_show  i{
+    margin: 20px;
+    font-size: 60px;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 30px;
+    opacity: .7;
+}
+
+
+
+/* shoes_section */
+.app3_show{
+    background-image: url("imges/img51.jpg");
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+.app3_show  i{
+    margin: 20px;
+    font-size: 60px;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 30px;
+    opacity: .7;
+}
+
+/* cut shirts */
+.app4_show{
+    background-image: url("imges/cut5.jpg");
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+.app4_show  i{
+    margin: 20px;
+    font-size: 60px;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 30px;
+    opacity: .7;
+}
+
+/* shirt */
+
+.app5_show{
+    background-image: url("imges/t-shirt1.jpg");
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+.app5_show  i{
+    margin: 20px;
+    font-size: 60px;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 30px;
+    opacity: .7;
+}
+
+
+/* sports shoes */
+
+.app6_show{
+    background-image: url("imges/sports1.jpg");
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+.app6_show  i{
+    margin: 20px;
+    font-size: 60px;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 30px;
+    opacity: .7;
+}
+
+/* sandals Mens*/
+
+.app7_show{
+    background-image: url("imges/sandals1.jpg");
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+.app7_show  i{
+    margin: 20px;
+    font-size: 60px;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 30px;
+    opacity: .7;
+}
+
+
+
+
+.login{
+    display: grid;
+    justify-content: center;
+    height: 50vh;
+    /* margin-top: 200px; */
+    padding-top: 100px;
+   
+}
+.Login_input label{
+    width: 100px;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    background-color: orange;
+    text-align: center;
+    border-radius: 4px;
+    opacity: .7;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+.Login_input input{
+    width:300px;
+    display: inline-block;
+    border: 4px solid orange;
+    padding: 3px 0 3px 0;
+    border-radius: 3px;
+    opacity: .7;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+.login .btn{
+text-align: center;
+margin-left: 50px;
+margin-top: 20px;
+opacity: .7;
+}
+
+.login .btn button{
+    color: black;
+    font-size:20px;
+    font-weight: 1000px;
+    border: none;
+    padding: 10px;
+    border-radius:8px;
+    background-color: orange;
+}
+
+#video_bg{
+    position:relative;
+ }
+
+#video_bg video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.toggle_menu_bar{
+    display: flex !important;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    background-color:black; 
+    width: 100vw;
+    flex-direction: column;
+    padding: 1rem;
+    opacity: .7;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .header .menu_bar{
+        display: flex;
+        margin-right: 40px;
+    }
+    .nav_links{
+        display: none;
+    }
+    .about_container{
+        
+       flex-wrap: wrap;
+    }
+    .about_container img{
+        width:30vw;
+    }
+    .about_img img{
+        width: 100vw;
+    }
+    .app_show  i{
+       display: flex;
+       justify-content: space-evenly;
+       background-color: orange;
+       padding: 10px;
+       font-size:15px;
+       border-radius: 10px;
+    }
+    .app1_show i{
+        display: flex;
+       justify-content: space-evenly;
+       background-color: orange;
+       padding: 15px;
+       font-size:20px;
+       border-radius: 10px;
+    }
+    .app2_show i{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: orange;
+        padding: 15px;
+        font-size:20px;
+        border-radius: 10px;
+    }
+    .app3_show i{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: orange;
+        padding: 15px;
+        font-size:20px;
+        border-radius: 10px;
+    }
+    .app4_show i{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: orange;
+        padding: 15px;
+        font-size:20px;
+        border-radius: 10px;
+    }
+    .app5_show i{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: orange;
+        padding: 15px;
+        font-size:20px;
+        border-radius: 10px;
+    }
+    .app6_show i{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: orange;
+        padding: 15px;
+        font-size:20px;
+        border-radius: 10px;
+    }
+    .app7_show i{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: orange;
+        padding: 15px;
+        font-size:20px;
+        border-radius: 10px;
+    }
+
+    
+    .top_header_icons{
+        margin-left: 20px;
+    }
+    
+    .app_header{
+        text-align: center;
+    }
+      .main_section  .main_section_btn .btn{
+        font-size: 30px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}
